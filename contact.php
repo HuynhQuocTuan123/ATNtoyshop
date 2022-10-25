@@ -29,9 +29,9 @@
                             <div class="hero__search__phone__icon">
                                 <i class="fa fa-phone"></i>
                             </div>
-                            <div class="hero__search__phone__text">
+                            <!-- <div class="hero__search__phone__text">
                                 <h5>+84 949 010 942</h5>
-                                <span>support 24/7 time</span>
+                                <span>support 24/7 time</span> -->
                             </div>
                         </div>
                     </div>
@@ -64,11 +64,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
-                    <div class="contact__widget">
+                    <!-- <div class="contact__widget">
                         <span class="icon_phone"></span>
                         <h4>Phone   </h4>
                         <p>+84-94-901-0942</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div class="contact__widget">
@@ -85,11 +85,11 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
-                    <div class="contact__widget">
+                    <!-- <div class="contact__widget">
                         <span class="icon_mail_alt"></span>
                         <h4>Email</h4>
                         <p>kietlpagcc200083@fpt.edu.vn</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
