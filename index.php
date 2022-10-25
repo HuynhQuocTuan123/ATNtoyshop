@@ -116,7 +116,7 @@ include_once("connection.php");
         </div>
         <div class="humberger__menu__contact">
             <ul>
-                <li><i class="fa fa-envelope"></i> kietlpagcc200083@fpt.edu.vn</li>
+                <li><i class="fa fa-envelope"></i> tuanhqgcc200311@fpt.edu.vn</li>
                 <li>ATN shop</li>
             </ul>
         </div>
@@ -143,19 +143,19 @@ include_once("connection.php");
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> kietlpagcc200083@fpt.edu.vn</li>
+                                <li><i class="fa fa-envelope"></i> tuanhqgcc200311@fpt.edu.vn</li>
                                 <li>A shopping website for toy </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
-                            <!-- <div class="header__top__right__social">
+                            <div class="header__top__right__social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div> -->
+                            </div>
                             <div class="header__top__right__language">
                                 <img src="img/language.png" alt="">
                                 <div>English</div>
@@ -416,7 +416,7 @@ include_once("connection.php");
                         <ul>
                             <li>Address: 311, Ninh Kieu, Can Tho, Vietnam</li>
                             <li>Phone: +84 949 010 942</li>
-                            <li>Email:kietlpagcc200083@fpt.edu.vn</li>
+                            <li>tuanhqgcc200311@fpt.edu.vn</li>
                         </ul>
                     </div>
                 </div>
@@ -449,12 +449,12 @@ include_once("connection.php");
                             <input type="text" placeholder="Enter your mail">
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
-                        <!-- <div class="footer__widget__social">
+                        <div class="footer__widget__social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
