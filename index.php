@@ -404,7 +404,7 @@ include_once("connection.php");
 
     
 
-    Footer Section Begin -->
+    <!-- //Footer Section Begin -->
      <footer class="footer spad">
         <div class="container">
             <div class="row">
@@ -470,7 +470,7 @@ include_once("connection.php");
     </footer>
     <!-- Footer Section End -->
 
-    Js Plugins -->
+    <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
