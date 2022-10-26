@@ -44,7 +44,7 @@ include_once("connection.php");
                 <li><a href="#"><i class="fa fa-heart"></i> <span>2</span></a></li>
                 <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
             </ul>
-            <div class="header__cart__price">item: <span>$00.00</span></div>
+            <!-- <div class="header__cart__price">item: <span>$00.00</span></div> -->
         </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
@@ -144,7 +144,7 @@ include_once("connection.php");
                         <div class="header__top__left">
                             <ul>
                                 <li><i class="fa fa-envelope"></i> tuanhqgcc200311@fpt.edu.vn</li>
-                                <li>A shopping website for toy </li>
+                                <!-- <li>A shopping website for toy </li> -->
                             </ul>
                         </div>
                     </div>
@@ -229,7 +229,7 @@ include_once("connection.php");
                             ?>  <li><a id ="CMM"href="?page=pm">Product Management </a>
                                     <ul class="header__menu__dropdown">
                                     <li><a href="?page=cat">Category Management</a></li>
-                                    <li><a href="?page=branch">Branch Management</a></li>
+                                    <li><a href="?page=branch">Shop Management</a></li>
                                     <li><a href="?page=Supp">Supplier Management</a></li>
                                     </ul>
                                     <li><a href="?page=content">Pages</a>
@@ -415,7 +415,7 @@ include_once("connection.php");
                         </div>
                         <ul>
                             <li>Address: 311, Ninh Kieu, Can Tho, Vietnam</li>
-                            <li>Phone: +84 949 010 942</li>
+                            <li>Phone: 0868239498</li>
                             <li>tuanhqgcc200311@fpt.edu.vn</li>
                         </ul>
                     </div>
@@ -461,7 +461,7 @@ include_once("connection.php");
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
-                        <div class="footer__copyright__text"> Luu Pham Anh Kiet</div>
+                        <div class="footer__copyright__text"> Huynh Quoc Tuan</div>
                         <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                     </div>
                 </div>
