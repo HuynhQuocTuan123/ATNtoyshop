@@ -252,7 +252,7 @@ include_once("connection.php");
                                 </ul>
                             </li>
                            
-                            <li><a href="?page=contact">Contact</a></li>
+                            <!-- <li><a href="?page=contact">Contact</a></li> -->
                             <?php 
                                 } 
                              ?>
@@ -270,7 +270,7 @@ include_once("connection.php");
                                  
                                 
                                  <!-- <li><a href="?page=contact">Contact</a></li> -->
-                                 <li><a href="?page=shopping-cart">Shoping Cart</a></li>
+                                 <li><a href="?page=shopping-cart">Cart</a></li>
                                  
                              </ul> 
                              
