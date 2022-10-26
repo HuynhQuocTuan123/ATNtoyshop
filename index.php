@@ -404,8 +404,8 @@ include_once("connection.php");
 
     
 
-    <!-- Footer Section Begin -->
-    <!-- <footer class="footer spad">
+    Footer Section Begin -->
+    <!--  <footer class="footer spad"> -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -457,7 +457,7 @@ include_once("connection.php");
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
@@ -470,8 +470,8 @@ include_once("connection.php");
     </footer>
     <!-- Footer Section End -->
 
-    <!-- Js Plugins -->
-    <!-- <script src="js/jquery-3.3.1.min.js"></script>
+    Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
@@ -524,7 +524,7 @@ include_once("connection.php");
     }
     
     
-    ?>  -->
+    ?> 
     
     
 
