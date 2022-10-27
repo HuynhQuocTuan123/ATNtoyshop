@@ -457,7 +457,7 @@ include_once("connection.php");
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div> 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
