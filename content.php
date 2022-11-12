@@ -59,8 +59,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNtoy/luffy.jpg">
-                            <h5><a href="#">Mokey. D. Luffy</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/xdk.jpg">
+                            <h5><a href="#">Xe Dieu Khien Tu Xa</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
