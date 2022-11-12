@@ -1,31 +1,3 @@
-/******************************************************************
-  Template Name: Vinyl shop
-  
-  
-******************************************************************/
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-1.  Template default CSS
-	1.1	Variables
-	1.2	Mixins
-	1.3	Flexbox
-	1.4	Reset
-2.  Helper Css
-3.  Header Section
-4.  Hero Section
-5.  Service Section
-6.  Categories Section
-7.  Featured Section
-8.  Latest Product Section
-9.  Contact
-10.  Footer Style
--------------------------------------------------------------------*/
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
 
 html,
 body {
@@ -104,10 +76,6 @@ ol {
 	margin: 0;
 }
 
-/*---------------------
-  Helper CSS
------------------------*/
-
 .section-title {
 	margin-bottom: 50px;
 	text-align: center;
@@ -126,7 +94,7 @@ ol {
 	right: 0;
 	height: 4px;
 	width: 80px;
-	background: #7fad39;
+	background: #ec11c8e1;
 	content: "";
 	margin: 0 auto;
 }
@@ -164,7 +132,7 @@ ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
-	background: #7fad39;
+	background: #ec11c8e1;
 	letter-spacing: 2px;
 }
 
@@ -175,7 +143,7 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
-	background: #7fad39;
+	background: #7311ece1;
 	border: none;
 }
 
@@ -243,12 +211,9 @@ ol {
 	}
 }
 
-/*---------------------
-  Header
------------------------*/
 
 .header__top {
-	background: #f5f5f5;
+	background: #ec11c8e1;
 }
 
 .header__top__left {
@@ -446,7 +411,7 @@ ol {
 }
 
 .header__menu ul li .header__menu__dropdown li:hover>a {
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .header__menu ul li .header__menu__dropdown li a {
@@ -457,7 +422,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .header__menu ul li:hover .header__menu__dropdown {
@@ -467,7 +432,7 @@ ol {
 }
 
 .header__menu ul li:hover>a {
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .header__menu ul li:last-child {
@@ -521,7 +486,7 @@ ol {
 .header__cart ul li a span {
 	height: 13px;
 	width: 13px;
-	background: #7fad39;
+	background: #ec11c8e1;
 	font-size: 10px;
 	color: #ffffff;
 	line-height: 13px;
@@ -553,9 +518,6 @@ ol {
 	display: none;
 }
 
-/*---------------------
-  Hero
------------------------*/
 
 .hero {
 	padding-bottom: 50px;
@@ -584,7 +546,7 @@ ol {
 }
 
 .hero__categories__all {
-	background: #7fad39;
+	background: #ec11c8e1;
 	position: relative;
 	padding: 10px 25px 10px 40px;
 	cursor: pointer;
@@ -698,7 +660,7 @@ ol {
 
 .hero__search__phone__icon {
 	font-size: 18px;
-	color: #7fad39;
+	color: #ec11c8e1;
 	height: 50px;
 	width: 50px;
 	background: #f5f5f5;
@@ -736,12 +698,12 @@ ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 4px;
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .hero__text h2 {
 	font-size: 46px;
-	color:greenyellow;
+	color:#ec11c8e1;
 	line-height: 52px;
 	font-weight: 700;
 	margin: 10px 0;
@@ -751,9 +713,6 @@ ol {
 	margin-bottom: 35px;
 }
 
-/*---------------------
-  Categories
------------------------*/
 
 .categories__item {
 	height: 270px;
@@ -804,9 +763,6 @@ ol {
 	right: -35px;
 }
 
-/*---------------------
-  Featured
------------------------*/
 
 .featured {
 	padding-top: 80px;
@@ -838,7 +794,7 @@ ol {
 	bottom: -2px;
 	width: 100%;
 	height: 2px;
-	background: #7fad39;
+	background: #ec11c8e1;
 	content: "";
 	opacity: 0;
 }
@@ -886,8 +842,8 @@ ol {
 }
 
 .featured__item__pic__hover li:hover a {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #ec11c8e1;
+	border-color: #ec11c8e1;
 }
 
 .featured__item__pic__hover li:hover a i {
@@ -941,9 +897,6 @@ ol {
 	font-weight: 700;
 }
 
-/*---------------------
-  Latest Product
------------------------*/
 
 .latest-product {
 	padding-top: 80px;
@@ -1015,9 +968,6 @@ ol {
 	font-weight: 700;
 }
 
-/*---------------------
-  Form BLog
------------------------*/
 
 .from-blog {
 	padding-top: 50px;
@@ -1032,9 +982,6 @@ ol {
 	margin-bottom: 70px;
 }
 
-/*---------------------
-  Breadcrumb
------------------------*/
 
 .breadcrumb-section {
 	display: flex;
@@ -1073,9 +1020,7 @@ ol {
 	color: #ffffff;
 }
 
-/*---------------------
-  Sidebar
------------------------*/
+
 
 .sidebar__item {
 	margin-bottom: 35px;
@@ -1247,9 +1192,6 @@ ol {
 	visibility: hidden;
 }
 
-/*---------------------
-  Shop Grid
------------------------*/
 
 .product {
 	padding-top: 80px;
@@ -1322,8 +1264,8 @@ ol {
 }
 
 .product__item__pic__hover li:hover a {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #ec11c8e1;
+	border-color: #ec11c8e1;
 }
 
 .product__item__pic__hover li:hover a i {
@@ -1521,7 +1463,7 @@ ol {
 }
 
 .filter__option span:hover {
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .product__item {
@@ -1562,8 +1504,8 @@ ol {
 }
 
 .product__item__pic__hover li:hover a {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #ec11c8e1;
+	border-color: #ec11c8e1;
 }
 
 .product__item__pic__hover li:hover a i {
@@ -1643,8 +1585,8 @@ ol {
 
 .product__pagination a:hover,
 .blog__pagination a:hover {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #ec11c8e1;
+	border-color: #ec11c8e1;
 	color: #ffffff;
 }
 
@@ -1653,9 +1595,6 @@ ol {
 	margin-right: 0;
 }
 
-/*---------------------
-  Shop Details
------------------------*/
 
 .product-details {
 	padding-top: 80px;
@@ -1858,9 +1797,6 @@ ol {
 	color: #666666;
 }
 
-/*---------------------
-  Shop Details
------------------------*/
 
 .related-product {
 	padding-bottom: 30px;
@@ -1870,9 +1806,6 @@ ol {
 	margin-bottom: 70px;
 }
 
-/*---------------------
-  Shop Cart
------------------------*/
 
 .shoping-cart {
 	padding-top: 80px;
@@ -2062,9 +1995,6 @@ ol {
 	text-align: center;
 }
 
-/*---------------------
-  Checkout
------------------------*/
 
 .checkout {
 	padding-top: 80px;
@@ -2153,8 +2083,8 @@ ol {
 }
 
 .checkout__input__checkbox label input:checked~.checkmark {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #ec11c8e1;
+	border-color: #ec11c8e1;
 }
 
 .checkout__input__checkbox label input:checked~.checkmark:after {
@@ -2268,9 +2198,6 @@ ol {
 	margin-top: 10px;
 }
 
-/*---------------------
-  Blog
------------------------*/
 
 .blog__item {
 	margin-bottom: 60px;
@@ -2347,9 +2274,6 @@ ol {
 	content: "";
 }
 
-/*---------------------
-  Blog Sidebar
------------------------*/
 
 .blog__sidebar {
 	padding-top: 50px;
@@ -2381,7 +2305,7 @@ ol {
 }
 
 .blog__sidebar__item ul li a:hover {
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .blog__sidebar__search {
@@ -2463,9 +2387,6 @@ ol {
 	margin-bottom: 10px;
 }
 
-/*---------------------
-  Blog Details Hero
------------------------*/
 
 .blog-details-hero {
 	height: 350px;
@@ -2508,9 +2429,6 @@ ol {
 	display: none;
 }
 
-/*---------------------
-  Blog Details
------------------------*/
 
 .related-blog {
 	padding-top: 70px;
@@ -2601,19 +2519,16 @@ ol {
 }
 
 .blog__details__widget .blog__details__social a:hover {
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .blog__details__widget .blog__details__social a:last-child {
 	margin-right: 0;
 }
 
-/*---------------------
-  Footer
------------------------*/
 
 .footer {
-	background: #F3F6FA;
+	background:  #ec11c8e1  ;
 	padding-top: 70px;
 	padding-bottom: 0;
 }
@@ -2719,7 +2634,7 @@ ol {
 }
 
 .footer__widget .footer__widget__social a:hover {
-	background: #7fad39;
+	background: #ec11c8e1;
 	color: #ffffff;
 	border-color: #ffffff;
 }
@@ -2742,9 +2657,6 @@ ol {
 	float: right;
 }
 
-/*---------------------
-  Contact
------------------------*/
 
 .contact {
 	padding-top: 80px;
@@ -2757,7 +2669,7 @@ ol {
 
 .contact__widget span {
 	font-size: 36px;
-	color: #7fad39;
+	color: #ec11c8e1;
 }
 
 .contact__widget h4 {
@@ -2772,9 +2684,6 @@ ol {
 	margin-bottom: 0;
 }
 
-/*---------------------
-  Map
------------------------*/
 
 .map {
 	height: 500px;
@@ -2796,7 +2705,7 @@ ol {
 
 .map .map-inside i {
 	font-size: 48px;
-	color: #7fad39;
+	color: #ec11c8e1;
 	position: absolute;
 	bottom: -75px;
 	left: 50%;
@@ -2843,9 +2752,6 @@ ol {
 	line-height: 26px;
 }
 
-/*---------------------
-  Contact Form
------------------------*/
 
 .contact__form__title {
 	margin-bottom: 50px;
@@ -2899,7 +2805,6 @@ ol {
 	letter-spacing: 2px;
 }
 
-/*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1200px) {
 	.container {
@@ -2907,7 +2812,6 @@ ol {
 	}
 }
 
-/* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.header__menu ul li {
@@ -2936,7 +2840,6 @@ ol {
 	}
 }
 
-/* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.hero__categories {
@@ -3053,7 +2956,7 @@ ol {
 	.humberger__menu__cart ul li a span {
 		height: 13px;
 		width: 13px;
-		background: #7fad39;
+		background: #ec11c8e1;
 		font-size: 10px;
 		color: #ffffff;
 		line-height: 13px;
@@ -3119,7 +3022,7 @@ ol {
 		-webkit-border-radius: 0;
 		border-radius: 0;
 		background: transparent;
-		color: #7fad39;
+		color: #ec11c8e1;
 	}
 	.humberger__menu__wrapper .slicknav_nav .slicknav_row,
 	.humberger__menu__wrapper .slicknav_nav a {
@@ -3159,7 +3062,6 @@ ol {
 	}
 }
 
-/* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
 	.hero__categories {
@@ -3311,7 +3213,7 @@ ol {
 	.humberger__menu__cart ul li a span {
 		height: 13px;
 		width: 13px;
-		background: #7fad39;
+		background: #ec11c8e1;
 		font-size: 10px;
 		color: #ffffff;
 		line-height: 13px;
@@ -3377,7 +3279,7 @@ ol {
 		-webkit-border-radius: 0;
 		border-radius: 0;
 		background: transparent;
-		color: #7fad39;
+		color: #ec11c8e1;
 	}
 	.humberger__menu__wrapper .slicknav_nav .slicknav_row,
 	.humberger__menu__wrapper .slicknav_nav a {
@@ -3417,7 +3319,6 @@ ol {
 	}
 }
 
-/* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
 	.hero__search__form form .hero__search__categories {
