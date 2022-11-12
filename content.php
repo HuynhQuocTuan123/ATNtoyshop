@@ -29,8 +29,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 949 010 942</h5>
-                                <span>support 24/7 time</span>
+                                <!-- <h5>+84 949 010 942</h5>
+                                <span>support 24/7 time</span> -->
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="section-title">
-                                        <h2>Search Results</h2>
+                                    <h2>Search Results</h2>
                                     </div>
                                 <div class="featured__controls">
                             </div>
