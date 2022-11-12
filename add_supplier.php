@@ -1,14 +1,15 @@
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="
+	toy/background.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Branch Management</h2>
+                        <h2>Shop Management</h2>
                         <div class="breadcrumb__option">
                             <a href="?page=content">Home</a>
-                            <span>Branch Management</span>
+                            <span>Shop Management</span>
                         </div>
                     </div>
                 </div>

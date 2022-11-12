@@ -76,13 +76,13 @@
 			}
 			echo"</select>";
 	}
-	function bind_Branch_List($conn){
-		$sqlstring ="SELECT branch_id, branch_name from branch";
+	function bind_shop_List($conn){
+		$sqlstring ="SELECT shop_id, shop_name from shop";
 		$result= pg_query($conn, $sqlstring);
-		echo"<SELECT name ='BranchList'class='form-control '
-			<option value='0'>Choose branch</option>";
+		echo"<SELECT name ='ahopList'class='form-control '
+			<option value='0'>Choose shop</option>";
 			while($row = pg_fetch_array($result, NULL, PGSQL_ASSOC)){
-				echo"<OPTION value='".$row['branch_id']."'>".$row['branch_name']. "</option>";
+				echo"<OPTION value='".$row['shop_id']."'>".$row['shop_name']. "</option>";
 			}
 			echo"</select>";
 	}
@@ -90,7 +90,7 @@
 		$sqlstring ="SELECT supplierid, suppliername from supplier";
 		$result= pg_query($conn, $sqlstring);
 		echo"<SELECT name ='SupplierList'class='form-control '
-			<option value='0'>Choose branch</option>";
+			<option value='0'>Choose shop</option>";
 			while($row = pg_fetch_array($result, NULL, PGSQL_ASSOC)){
 				echo"<OPTION value='".$row['supplierid']."'>".$row['suppliername']. "</option>";
 			}
@@ -102,14 +102,14 @@
 		$id = $_POST["txtID"];
 		$proname=$_POST["txtName"];
 		$short=$_POST['txtShort'];
-		// $branch=$_POST['txtbranch'];
+		// $shop=$_POST['txtshop'];
 		// $supplier=$_POST['txtsupplier'];
 		$detail=$_POST['txtDetail'];
 		$price=$_POST['txtPrice'];
 		$qty=$_POST['txtQty'];
         $pic=$_FILES['txtImage'];
         $category=$_POST['CategoryList'];
-		$branchlist=$_POST['BranchList'];
+		$shoplist=$_POST['shopList'];
 		$supplierlist=$_POST['SupplierList'];
 		
 		$err="";
@@ -137,8 +137,8 @@
 						copy($pic['tmp_name'],"ATNtoy/".$pic['name']);
 						$filePic =$pic['name'];
 						$sqlstring="INSERT INTO product(
-							product_id, product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch_id,supplierid)
-							VALUES('$id','$proname', $price,'$short','$detail','".date('Y-m-d H:i:s')."',$qty,'$filePic','$category', '$branchlist','$supplierlist')";
+							product_id, product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, shop_id,supplierid)
+							VALUES('$id','$proname', $price,'$short','$detail','".date('Y-m-d H:i:s')."',$qty,'$filePic','$category', '$shoplist','$supplierlist')";
 							
 						pg_query($conn, $sqlstring);
 						echo'<li>You have add successfully</li>';
@@ -201,10 +201,10 @@
                 </div>
 
 				<div class="form-group">   
-                    <label for="" class="col-sm-2 control-label">Branch(*):  </label>
+                    <label for="" class="col-sm-2 control-label">shop(*):  </label>
 							<div class="col-sm-10">
                             
-							      <?php bind_Branch_List($conn); ?>
+							      <?php bind_shop_List($conn); ?>
 							</div>
                 </div> 
 				<div class="form-group">   

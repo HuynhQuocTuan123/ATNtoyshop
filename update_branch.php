@@ -24,26 +24,26 @@
 		if(isset($_GET["id"]))
 		{
 			$id = $_GET['id'];
-			$result = pg_query($conn, "SELECT * from branch where branch_id = '$id'");
+			$result = pg_query($conn, "SELECT * from shop where shop_id = '$id'");
 			$row = pg_fetch_array($result, NULL, PGSQL_ASSOC);
-			$branch_id = $row['branch_id'];
-			$branch_name = $row['branch_name'];
+			$shop_id = $row['shop_id'];
+			$shop_name = $row['shop_name'];
 	?>
 <div class="container">
-	<h2>Updating Product Branch</h2>
+	<h2>Updating Product shop</h2>
 			 	<form id="form1" name="form1" method="post" action="" class="form-horizontal" role="form">
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Branch ID(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">shop ID(*):  </label>
 							<div class="col-sm-10">
-								  <input type="text" name="txtID" id="txtID" class="form-control" placeholder="Branch ID" readonly 
-								  value='<?php echo $row['branch_id'] ?>'>
+								  <input type="text" name="txtID" id="txtID" class="form-control" placeholder="shop ID" readonly 
+								  value='<?php echo $row['shop_id'] ?>'>
 							</div>
 					</div>	
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Branch Name(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">shop Name(*):  </label>
 							<div class="col-sm-10">
-								  <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Branch Name" 
-								  value='<?php echo $row['branch_name'] ?>'>
+								  <input type="text" name="txtName" id="txtName" class="form-control" placeholder="shop Name" 
+								  value='<?php echo $row['shop_name'] ?>'>
 							</div>
 					</div>
                     
@@ -74,8 +74,8 @@
 			}
 			else
 			{
-				pg_query($conn, "UPDATE branch set branch_name = '$name' where branch_id = '$id'");
-				echo '<meta http-equiv="refresh" content="0;URL =?page=branch"/>';
+				pg_query($conn, "UPDATE shop set shop_name = '$name' where shop_id = '$id'");
+				echo '<meta http-equiv="refresh" content="0;URL =?page=shop"/>';
 			}
 		}
 	?>
