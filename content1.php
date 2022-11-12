@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/mbdk.jpg.crdownload">
+                    <div class="categories__item set-bg" data-setbg="img/mbdktx.jpg">
                             <h5><a href="#">May Bay</a></h5>
                         </div>
                         <div class="categories__item set-bg" data-setbg="img/xdk.jpg">
