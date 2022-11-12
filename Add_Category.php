@@ -32,13 +32,13 @@
                             </form>
                         </div>
                         <div class="hero__search__phone">
-                            <!-- <div class="hero__search__phone__icon">
+                            <div class="hero__search__phone__icon">
                                 <i class="fa fa-phone"></i>
-                            </div> -->
-                            <!-- <div class="hero__search__phone__text">
+                            </div>
+                            <div class="hero__search__phone__text">
                                 <h5>+84 90 785 3006</h5>
                                 <span>support 24/7 time</span>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                     
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-						      <input type="background-color: #3CC032;submit"  class="site-btn" name="btnAdd" id="btnAdd" value="Add new"/>
+						      <input type="submit"  class="site-btn" name="btnAdd" id="btnAdd" value="Add new"/>
                               <input type="button" class="site-btn" name="btnIgnore"  id="btnIgnore" value="Ignore" onclick="window.location='?page=cat'" />
                               	
 						</div>
