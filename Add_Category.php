@@ -32,13 +32,13 @@
                             </form>
                         </div>
                         <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
+                            <!-- <div class="hero__search__phone__icon">
                                 <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
+                            </div> -->
+                            <!-- <div class="hero__search__phone__text">
                                 <h5>+84 90 785 3006</h5>
                                 <span>support 24/7 time</span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
