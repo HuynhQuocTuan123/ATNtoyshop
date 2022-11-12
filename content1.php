@@ -28,10 +28,10 @@
                             <div class="hero__search__phone__icon">
                                 <i class="fa fa-phone"></i>
                             </div>
-                            <div class="hero__search__phone__text">
+                            <!-- <div class="hero__search__phone__text">
                                 <h5>+84 949 010 942</h5>
                                 <span>support 24/7 time</span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="hero__item set-bg" data-setbg="ATNtoy/background.jpg">
@@ -57,8 +57,8 @@
                     <div class="categories__item set-bg" data-setbg="ATNtoy/acee.jpg">
                             <h5><a href="#">Portgas.D. Ace</a></h5>
                         </div>
-                        <div class="categories__item set-bg" data-setbg="ATNtoy/luffy.jpg">
-                            <h5><a href="#">Mokey. D. Luffy</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/xdk.jpg">
+                            <h5><a href="#">Xe Dieu Khien Tu Xa</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
