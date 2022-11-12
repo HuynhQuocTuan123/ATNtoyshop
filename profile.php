@@ -28,13 +28,13 @@
                                 <button type="submit" class="site-btn">SEARCH</button>
                             </form>
                         </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
+                        <!-- <div class="hero__search__phone"> -->
+                            <!-- <div class="hero__search__phone__icon">
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
                                 <h5>+84 949 010 942</h5>
-                                <span>support 24/7 time</span>
+                                <span>support 24/7 time</span> -->
                             </div>
                         </div>
                     </div>
