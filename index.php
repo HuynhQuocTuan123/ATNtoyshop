@@ -149,9 +149,9 @@ include_once("connection.php");
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <!-- <div class="header__top__right">
+                        <div class="header__top__right">
                             <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
@@ -163,8 +163,8 @@ include_once("connection.php");
                                 <ul>
                                     <li><a href="#">Vietnamese</a></li>
                                     <li><a href="#">English</a></li>
-                                </ul>
-                            </div> -->
+                                </ul> -->
+                            </div>
                             <div class="header__top__right__auth">
                             <?php 
 										if(isset($_SESSION['us']) && $_SESSION['us'] != ""){
