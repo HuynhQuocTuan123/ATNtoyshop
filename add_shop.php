@@ -27,11 +27,11 @@
 			$err = "";
 			if($id=="")
 			{
-				$err .= "Enter branch ID</br>";
+				$err .= "Enter shop ID</br>";
 			}
 			if($name=="")
 			{
-				$err .= "Enter branch name</br>";
+				$err .= "Enter shop name</br>";
 			}
 			if($err != "")
 			{
@@ -39,11 +39,11 @@
 			}
 			else
 			{
-				$sql = "select * from branch where branch_id ='$id' and branch_name = '$name'";
+				$sql = "select * from shop where shop_id ='$id' and shop_name = '$name'";
 				$result = pg_query($conn, $sql);
 				if(pg_num_rows($result)=="0")
 				{
-					pg_query($conn, "insert into branch (branch_id, branch_name) values ('$id', '$name')");
+					pg_query($conn, "insert into shop (shop_id, shop_name) values ('$id', '$name')");
 					echo '<meta http-equiv="refresh" content="0;URL =?page=branch"';
 				}
 				else
@@ -55,18 +55,18 @@
 	?>
 
 <div class="container">
-	<h2>Adding Branch</h2>
+	<h2>Adding shop</h2>
 			 	<form id="form1" name="form1" method="post" action="" class="form-horizontal" role="form">
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Branch ID(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">Shop ID(*):  </label>
 							<div class="col-sm-10">
 							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="Branch ID" value='<?php echo isset($_POST["txtID"])?($_POST["txtID"]):"";?>'>
 							</div>
 					</div>	
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Branch Name(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">Shop Name(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Branch Name" value='<?php echo isset($_POST["txtName"])?($_POST["txtName"]):"";?>'>
+							      <input type="text" name="txtName" id="txtName" class="form-control" placeholder="shop Name" value='<?php echo isset($_POST["txtName"])?($_POST["txtName"]):"";?>'>
 							</div>
 					</div>
                     
