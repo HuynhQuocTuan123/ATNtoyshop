@@ -89,21 +89,21 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 			}
 		echo "</select>";
 	}
-	function bind_Branch_List($conn, $selectedValue)
+	function bind_shop_List($conn, $selectedValue)
 	{
-		$sqlString = "SELECT branch_id, branch_name from branch";
+		$sqlString = "SELECT shop_id, shop_name fromshop";
 		$result = pg_query($conn, $sqlString);
-		echo "<SELECT name ='BranchList' class='from-control'>
-			<option value='0'>Choose Branch</option>";
+		echo "<SELECT name ='shopList' class='from-control'>
+			<option value='0'>Choose shop</option>";
 			while ($row=pg_fetch_array($result,NULL, PGSQL_ASSOC))
 			{
-				if($row['branch_name']==$selectedValue)
+				if($row['shop_name']==$selectedValue)
 				{
-					echo "<option value ='".$row['branch_id']."' selected>".$row['branch_name']."</option>";
+					echo "<option value ='".$row['shop_id']."' selected>".$row['shop_name']."</option>";
 				}
 				else
 				{
-					echo "<option value='".$row['branch_id']."'>".$row['branch_name']."</option>";
+					echo "<option value='".$row['shopid']."'>".$row['shop_name']."</option>";
 				}
 			}
 		echo "</select>";
@@ -111,7 +111,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 	if(isset($_GET['id']))
 	{
 		$id = $_GET['id'];
-		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch_id from product where product_id='$id'";
+		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, shop_id from product where product_id='$id'";
 
 		$result = pg_query($conn, $sqlString);
 		$row = pg_fetch_array($result, NULL, PGSQL_ASSOC);
@@ -123,7 +123,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 		$qty = $row['pro_qty'];
 		$pic = $row['pro_image'];
 		$category = $row['cat_id'];
-		$branch = $row['branch_name'];
+		$shop = $row['shop_name'];
 ?>
 <div class="container">
 	<h2>Updating Product</h2>
@@ -158,9 +158,9 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 							</div>
                  </div>   
 				 <div class="form-group">   
-                    <label for="" class="col-sm-5 control-label">Branch category(*):  </label>
+                    <label for="" class="col-sm-5 control-label">shop category(*):  </label>
 							<div class="col-sm-10">
-								<?php bind_Branch_List($conn, $branch); ?>
+								<?php bind_shop_List($conn, $shop); ?>
 							      
 							</div>
                 </div>  
@@ -213,7 +213,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 		$qty = $_POST['txtQty'];
 		$pic = $_FILES['txtImage'];
 		$cat = $_POST['CategoryList'];
-		$branch = $_POST['BranchList'];
+		$shop = $_POST['shopList'];
 		$err = "";
 
 		
@@ -234,7 +234,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 							copy($pic['tmp_name'], "ATNtoy/".$pic['name']);
 							$filepic = $pic['name'];
 							
-							$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short', detaildesc ='$detail', pro_qty ='$qty', pro_image ='$filepic', cat_id ='$cat', branch_name = '$branch', 
+							$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short', detaildesc ='$detail', pro_qty ='$qty', pro_image ='$filepic', cat_id ='$cat', shop_name = '$shop', 
 							prodate ='".date('Y-m-d H:i:s')."' where product_id ='$id'";
 							pg_query($conn,$sqlString);
 							echo '<meta http-equiv="refresh" content="0;URL=?page=pm"';	
@@ -253,7 +253,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 			else
 			{
 				
-					$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short',  detaildesc ='$detail', pro_qty='$qty', cat_id='$cat',branch_id= '$branch', 
+					$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short',  detaildesc ='$detail', pro_qty='$qty', cat_id='$cat',shop_id= '$shop', 
 					prodate='".date('Y-m-d H:i:s')."' where product_id ='$id'";
 					pg_query($conn,$sqlString);
 					echo '<meta http-equiv="refresh" content="0;URL =?page=pm"';	
