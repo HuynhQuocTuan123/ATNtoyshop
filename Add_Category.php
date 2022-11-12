@@ -128,7 +128,7 @@
                     
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-						      <input type="submit"  class="site-btn" name="btnAdd" id="btnAdd" value="background-color: #3CC032;Add new"/>
+						      <input type="background-color: #3CC032;submit"  class="site-btn" name="btnAdd" id="btnAdd" value="Add new"/>
                               <input type="button" class="site-btn" name="btnIgnore"  id="btnIgnore" value="Ignore" onclick="window.location='?page=cat'" />
                               	
 						</div>
