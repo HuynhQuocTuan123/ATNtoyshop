@@ -85,7 +85,7 @@
 			include_once("connection.php");
 			$pass = md5($pa);
 			$res = pg_query($conn, "SELECT username, password, state FROM customer WHERE username='$us' AND password='$pass'")
-            or die(pg_error($conn));
+            or die(pg_Last_error($conn));
             $row = pg_fetch_array($res, NULL, PGSQL_ASSOC);
 			if(pg_num_rows($res)==1)
 			{
@@ -140,7 +140,7 @@
 		<div class="btn_login_cancel">	 
         	<div class="col-sm-2"></div>
         		<div class="col-sm-10">
-        			<input type="submit" name="btnLogin"  class="site-btn" id="btnLogin" value="Login"/>
+        			<input style="background-color: #3CC032;"type="submit" name="btnLogin"  class="site-btn" id="btnLogin" value="Login"/>
             		<input type="submit" name="btnCancel"  class="site-btn" id="btnLogin" value="Cancel"/>
 				</div>  
 			</div>
