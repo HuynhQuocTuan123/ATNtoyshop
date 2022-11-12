@@ -43,8 +43,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 949 010 942</h5>
-                                <span>support 24/7 time</span>
+                                <!-- <h5>+84 949 010 942</h5>
+                                <span>support 24/7 time</span> -->
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                       <div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
 						      <input type="submit"  class="site-btn" name="btnUpdate" id="btnUpdate" value="Update"onclick="return updateNotice() />
-                              <input type="button" class="site-btn" name="btnIgnore"  id="btnIgnore" value="Ignore" onclick="window.location='?page=content'" />
+                              <input type="button" class="site-btn" name="btnIgnore"  id="btnIgnore" value="Ignore" onclick="window.location='?page=content'"/>
                               	
                         </div>
                         
