@@ -50,10 +50,10 @@
                             <div class="hero__search__phone__icon">
                                 <i class="fa fa-phone"></i>
                             </div>
-                            <!-- <div class="hero__search__phone__text">
+                            <div class="hero__search__phone__text">
                                 <h5>+84 949 010 942</h5>
                                 <span>support 24/7 time</span>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                                 <tr>
                                     <th class="shoping__product">Products</th>
                                     <th class="shoping__product">Category</th>
-                                    <th class="shoping__product">Shop</th>
+                                    <th class="shoping__product">Shop </th>
                                     
                                     <th>  Price</th>
                                     <th>Quantity</th>
@@ -127,7 +127,7 @@
                             <?php //
                                  if(isset($_GET['id'])){
                                     $id=$_GET['id'];
-                                    $result = pg_query($conn,"SELECT product.product_id, product.product_name, shop.shop_name, product.price, product.pro_qty, product.pro_image, category.cat_name 
+                                    $result = pg_query($conn,"SELECT product.product_id, product.product_name, ranch.shop_name, product.price, product.pro_qty, product.pro_image, category.cat_name 
                                     from product, category, shop where product.cat_id = category.cat_id and product.shop_id=shop.shop_id '$id'=category.cat_id ");
             
                                 }else{
